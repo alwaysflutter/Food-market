@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class NoDataPage extends StatelessWidget {
   final String text;
   final String imgPath;
-  const NoDataPage({super.key, required this.text,this.imgPath='assets/images/emptycart3.webp'});
+  const NoDataPage({super.key, required this.text,this.imgPath='assets/images/cart_empty.gif'});
 
   @override
   Widget build(BuildContext context) {

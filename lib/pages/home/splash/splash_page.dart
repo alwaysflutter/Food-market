@@ -49,12 +49,12 @@ class _SplashScreenState extends State<SplashScreen>
               scale: animation,
               child: Center(
                   child: Image.asset(
-                'assets/images/logo2.png',
+                'assets/images/logo.png',
                 width: Dimenisions.splashImg,
               ))),
           Center(
               child: Image.asset(
-            'assets/images/logo3.jpg',
+            'assets/images/splash_name.jpg',
             width: Dimenisions.splashImg,
           )),
         ],
